@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'inter' , sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    height: 113px;
+    width: 1184px;
+    justify-content: space-between;
+    margin: 0 30px 0 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.left img{
+    height: 40px;
+    width: 142px;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+    height: 17px;
+    flex-wrap: wrap;
+
+}
+
+.mid a{
+    color: hsla(245, 21%, 12%, 0.5);
+}
+
+.right{
+    display: flex;
+    width: 220px;
+    height: 49px;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.right .sign{
+   background-color: hsla(247, 51%, 55%, 1);
+   color: aliceblue;
+   padding: 16px 32px 16px 32px;
+   border-radius: 100px;
+   gap: 8px;
+   cursor: pointer;
+}
+/*section 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.container1{
+    height: 841px;
+    width: 1184px;
+    margin: 0 40px 0 30px;
+    padding: 64px 0 64px 0;
+    
+    
+}
+.left1{
+    position: relative;
+    top: 60px;
+    width: 412px;
+    height: 577px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-left{
+    width: 224px;
+    height: 56px;
+    border-radius: 100px;
+    background-color: hsla(0, 0%, 100%, 1);
+    padding: 16px 32px 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.icon{
+    position: relative;
+    right: -20px;
+}
+.top-left a{
+    color: hsla(335, 92%, 67%, 1);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; /*like this "word" will not be written in the second line */
+}
+
+.text{
+    width: 412px;
+    height: 249px;
+}
+.text h1{
+    font-size: 69px;
+    font-weight: 700;
+
+}
+.text span{
+    color: #F85E9F;
+}
+.small-text{
+    height: 87px;
+}
+.small-text p{
+    font-size: 18px;
+    color: #7c7b7d;
+    line-height: 28.8px;
+}
+.start{
+    display: flex;
+    width: 338px;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.start a{
+    display: flex;
+    align-items: center;
+
+}
+.st{
+  
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    background-color: #5D50C6;
+    color: white;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right1{
+    width: 765px;
+    height: 713px;
+    position: relative;
+    bottom: 580px;
+    left: 420px;
+   
+}
+.pictures{
+    width: 575px;
+    height: 632px;
+    position: relative;
+    bottom: 210px;
+    left: 90px;
+    gap: 31px;
+    
+    
+   
+}
+.pictures img{
+    height: 300px;
+    width: 272px;
+    border-radius: 32px;
+    
+}
+
+.ic{
+    position: relative;
+    bottom: 350px;
+    left: 400px;
+}
+.mark{
+    width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.rec{
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+}
